@@ -53,3 +53,12 @@ python3 firewall_port_tester_py36.py \
   --format json
 ```
 
+### 3. Interface Binding
+Force the scan to originate from a specific internal IP:
+
+```bash
+python3 firewall_port_tester_py36.py \
+  --targets abc.example.com \
+  --ports 2181,9092 \
+  --bind 10.10.1.25 \
+  --proto tcp
