@@ -39,9 +39,9 @@ python3 firewall_port_tester_py36.py \
 ```
 ### 2. Bulk Scanning with JSON Output2
 
-Create a file named hosts.txt:
-100.124.168.52
-10.10.1.10
+Create a file named hosts.txt: \
+100.124.168.52 \
+10.10.1.10 \
 abc.example.com
 
 ```bash
