@@ -28,6 +28,12 @@ Built specifically for environments where **Python ≥ 3.6** is available.
 
 ## 🚀 Usage Examples
 
+### For getting help
+Help from command line
+```bash
+python3 firewall_port_tester_py36v1.py --help
+```
+
 ### 1. Simple Port Scan
 Test standard web and SSH ports on a single target:
 
@@ -37,7 +43,7 @@ python3 firewall_port_tester_py36.py \
   --ports 22,443,6443 \
   --proto tcp
 ```
-### 2. Bulk Scanning with JSON Output2
+### 2. Bulk Scanning with JSON Output
 
 Create a file named hosts.txt: \
 100.124.168.52 \
