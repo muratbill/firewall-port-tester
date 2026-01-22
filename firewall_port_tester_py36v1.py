@@ -11,8 +11,7 @@ Python 3.6–compatible firewall port tester.
 - UDP: best-effort probe (no guaranteed "open/closed").
 - Supports: port lists & ranges, concurrency, CSV/JSON output.
 - Records source (local) and destination IPs.
-- NEW: --bind <source-ip> to force the local interface used.
-- Compatible with Python 3.6 (no asyncio.run / create_task / future annotations).
+- Bind <source-ip> to force the local interface used.
 
 Examples:
   python3 firewall_port_tester_py36.py --targets 100.124.168.52 --ports 22,443,6443 --proto tcp
