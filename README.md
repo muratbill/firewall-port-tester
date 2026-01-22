@@ -3,7 +3,7 @@
 [![Python 3.6+](https://img.shields.io/badge/python-3.6+-blue.svg)](https://www.python.org/downloads/release/python-360/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-A lightweight, high-concurrency port scanner designed for network validation and firewall auditing.  
+A lightweight,  port scanner designed for network validation and firewall auditing.  
 Built specifically for environments where **Python ≥ 3.6** is available.
 
 ---
@@ -26,7 +26,7 @@ Built specifically for environments where **Python ≥ 3.6** is available.
 
 ---
 
-## 🚀 Usage Examples
+## Usage Examples
 
 ### For getting help
 Help from command line
